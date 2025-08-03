@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# 🚀 QuickKart – Campus 10-Min Delivery App
 
-## Project info
+**QuickKart** is a modern, lightning-fast web app built for hostel students to get **groceries, food, medicines, and essentials** delivered within **10 minutes** inside the campus. Think of it as the Blinkit + Swiggy for student life — smart, responsive, and always available.
 
-**URL**: https://lovable.dev/projects/fc22b0f6-dc41-4e4e-a0fc-290faf1de0da
+---
 
-## How can I edit this code?
+## 🎯 Key Features
 
-There are several ways of editing your application.
+- 📦 **Browse Categories**: Groceries, Food, Medicine, and Daily Essentials
+- 🔍 **AI-Powered Search**: Quickly find what you need with intelligent search suggestions
+- 🚴 **Real-time Delivery Tracker**: Track your delivery partner live
+- 🙋‍♂️ **Chatbot Support**: Instant 24/7 help via integrated AI chatbot (powered by OpenAI)
+- 💸 **Wallet & Promo Codes**: Save with student-exclusive offers and wallet credits
+- 📱 **Mobile-first UI**: Built for smartphones with a fast, dark-modern theme
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fc22b0f6-dc41-4e4e-a0fc-290faf1de0da) and start prompting.
+## 🔗 Pages Included
 
-Changes made via Lovable will be committed automatically to this repo.
+| Page                  | Purpose                                |
+|-----------------------|----------------------------------------|
+| **Homepage**          | Main interface with categories, CTAs   |
+| **Vendor Login**      | Sellers can manage listings/orders     |
+| **Admin Dashboard**   | Control panel for orders & inventory   |
+| **Delivery Panel**    | For delivery agents to track tasks     |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🖼 UI/UX Design Guidelines
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Dark-modern aesthetic with **bold fonts** and **animated icons**
+- Responsive layouts for both desktop and mobile
+- Clean CTAs like “Order Now”, “Track My Order”, and “Become a Delivery Partner”
+- Fast and minimalist for quick browsing & ordering
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🧠 AI Integrations
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Search & Recommendations**: OpenAI + Pinecone (or Algolia)
+- **Chatbot Support**: GPT-4o via OpenAI API
+- **Smart Routing (Planned)**: Google Maps + Delivery ETA prediction
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠 Tech Stack
 
-**Edit a file directly in GitHub**
+| Area           | Tech Used                                  |
+|----------------|---------------------------------------------|
+| Frontend       | React.js / Next.js                         |
+| Backend        | Node.js + Express (or Django alternative)  |
+| Database       | MongoDB or PostgreSQL                      |
+| AI Services    | OpenAI GPT-4o, Pinecone, Google Maps API   |
+| Hosting        | Vercel (Frontend), Render/AWS (Backend)    |
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## ⚙️ Project Setup
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/quickkart.git
+cd quickkart
 
-## What technologies are used for this project?
+# 2. Install dependencies
+npm install
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fc22b0f6-dc41-4e4e-a0fc-290faf1de0da) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# 3. Start the app
+npm start
